@@ -33,6 +33,11 @@
 
       getQuote(api_url);
 
+      // Update the quote every minute (60000 milliseconds)
+      setInterval(() => {
+        getQuote(api_url);
+      }, 60000);
+
       function tweet() {
         window.open(
           "https://twitter.com/intent/tweet?text=" +
