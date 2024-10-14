@@ -87,7 +87,7 @@ body {
   width: 20px;
   margin-right: 10px;
 }
-.quote-box button:nth-child(2){
-    background: transparent;
-    color: #333;
+.quote-box button:nth-child(2) {
+  background: transparent;
+  color: #333;
 }
