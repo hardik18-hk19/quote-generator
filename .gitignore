@@ -1,0 +1,6 @@
+# Ignore node_modules
+node_modules/
+
+# Other common ignore patterns can also be added here
+.env
+.DS_Store
